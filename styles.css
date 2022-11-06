@@ -13,7 +13,8 @@ font-family: 'Roboto', sans-serif;
 font-size: 24px;
 align-items: center;
 color: #F9Faf8;
-margin-left: 240px;}
+margin-left: 240px;
+font-weight: bold;}
 
 .links {display:flex;
 }
@@ -21,11 +22,14 @@ margin-left: 240px;}
 ul {list-style: none;
 display: flex;
 gap: 24px;
-margin-right: 240px;}
+margin-right: 240px;
+align-items: center;}
 
 a {font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none;}
+    text-decoration: none;
+    margin: 0;
+    padding: 0;}
 
 .hero{background-color: #1F2937;
 display: flex;
