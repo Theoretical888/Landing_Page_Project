@@ -26,7 +26,11 @@ a {font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;}
 
-.hero{background-color: #1F2937}
+.hero{background-color: #1F2937;
+display: flex;
+padding-top: 100px;
+justify-content: space-between;
+}
 
 .awesome{font-size: 48px;
 font-weight: 900;
@@ -34,5 +38,32 @@ color: #F9Faf8;}
 
 .subtext {font-size: 18px;
 color:#E5E7EB;}
+
+img {width: 400px;
+height: 220px;}
+
+.left{display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 475px;
+padding: 24px;
+gap: 8px;
+margin-left: 200px;
+}
+
+.right {display:flex;
+align-items: center;
+justify-content: center;
+margin-right:124px;}
+
+button{font-size: 14px;
+font-style: bold;
+padding: 6px 12px;
+color:#F9Faf8;
+background-color: #3882F6;
+border: 1px solid #3882F6;}
+
+
+
 
 
