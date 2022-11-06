@@ -31,14 +31,16 @@ a {font-size: 18px;
     margin: 0;
     padding: 0;}
 
-.hero{background-color: #1F2937;
+
+
+.hero {background-color: #1F2937;
 display: flex;
 padding-top: 100px;
 justify-content: space-between;
 padding-bottom: 150px;
 }
 
-.awesome{font-size: 48px;
+.awesome {font-size: 48px;
 font-weight: 900;
 color: #F9Faf8;}
 
@@ -48,7 +50,7 @@ color:#E5E7EB;}
 img {width: 460px;
 height: 230px;}
 
-.left{display: flex;
+.left {display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 width: 475px;
@@ -62,13 +64,36 @@ align-items: center;
 justify-content: center;
 margin-right:124px;}
 
-button{font-size: 14px;
+button {font-size: 14px;
 border-radius: 5px;
 font-weight: bold;
 padding: 8px 28px;
 color:#F9Faf8;
 background-color: #3882F6;
 border: 1px solid #3882F6;}
+
+.info {display: flex;
+flex-direction: column;
+}
+
+.info-header {display: flex;
+font-size: 36px;
+font-weight: bolder;
+color: #1F2937;
+justify-content: center;
+margin-top: 48px;
+margin-bottom: 48px;
+}
+
+.images {display: flex;
+justify-content: center;
+gap: 32px;
+}
+
+.image-card {height: 150px;
+width: 150px;
+border: 2px solid #3882F6;
+border-radius: 10px;}
 
 
 
