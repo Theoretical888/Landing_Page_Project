@@ -30,6 +30,7 @@ a {font-size: 18px;
 display: flex;
 padding-top: 100px;
 justify-content: space-between;
+padding-bottom: 150px;
 }
 
 .awesome{font-size: 48px;
@@ -39,8 +40,8 @@ color: #F9Faf8;}
 .subtext {font-size: 18px;
 color:#E5E7EB;}
 
-img {width: 400px;
-height: 220px;}
+img {width: 460px;
+height: 230px;}
 
 .left{display: flex;
 flex-direction: column;
@@ -57,8 +58,8 @@ justify-content: center;
 margin-right:124px;}
 
 button{font-size: 14px;
-font-style: bold;
-padding: 6px 12px;
+font-weight: bold;
+padding: 8px 24px;
 color:#F9Faf8;
 background-color: #3882F6;
 border: 1px solid #3882F6;}
