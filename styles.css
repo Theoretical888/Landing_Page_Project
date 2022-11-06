@@ -59,8 +59,9 @@ justify-content: center;
 margin-right:124px;}
 
 button{font-size: 14px;
+border-radius: 5px;
 font-weight: bold;
-padding: 8px 24px;
+padding: 8px 28px;
 color:#F9Faf8;
 background-color: #3882F6;
 border: 1px solid #3882F6;}
