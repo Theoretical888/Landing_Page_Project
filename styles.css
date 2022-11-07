@@ -101,10 +101,10 @@ gap: 32px;
 justify-content: center;
 margin-bottom: 84px;}
 
-.text{width: 150px;
+.text{width: 158px;
 color: #808080;
 display: flex;
-justify-content: center;}
+text-align: center;}
 
 .quote{display: flex;
 flex-direction: column;
