@@ -64,7 +64,7 @@ align-items: center;
 justify-content: center;
 margin-right:124px;}
 
-button {font-size: 14px;
+button, .button1 {font-size: 14px;
 border-radius: 5px;
 font-weight: bold;
 padding: 8px 28px;
@@ -130,6 +130,36 @@ font-weight: bold;
 margin-left: 750px;
 margin-bottom: 96px;
 font-size: 18px;}
+
+.container {display: flex;
+justify-content: center;
+align-items: center;
+padding: 72px;}
+
+.call-to-action {background-color: #3882F6;
+padding: 36px 96px;
+border-radius: 8px;
+display: flex;
+gap: 96px;
+}
+
+.action-left {display: flex;
+flex-direction: column;}
+
+.action, .subtext2 {color: #F9Faf8;}
+
+.action {font-size: 18px;
+font-weight: bold;}
+
+.subtext2{font-size: 12px;}
+
+button, .button2{font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px 28px;
+    color:#F9Faf8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;}
 
 
 
